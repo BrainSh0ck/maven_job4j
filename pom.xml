@@ -21,6 +21,7 @@
             <scope>test</scope>
         </dependency>
         <dependency>
+
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.12</version>
@@ -66,14 +67,16 @@
 </build>
 
 
-<!--
 
--->
     <modules>
-            <module>oddNumbers</module>
-            <module>evenNumbers</module>
-            <module>twoRangeintArray</module>
-            <module>IteratorOfIterators</module>
+        <!--
+        <module>oddNumbers</module>
+        <module>evenNumbers</module>
+        <module>twoRangeintArray</module>
+        <module>IteratorOfIterators</module>
+        <module>GenericFirst</module>
+-->
+        <module>SimpleArray</module>
     </modules>
 
 </project>
