@@ -1,4 +1,4 @@
-package com.simplearray;
+package com.store;
 
 /**
  * SimpleArray generic class.
@@ -22,10 +22,8 @@ public class SimpleArray<T> {
      *
      * @param size size of constructor
      */
-    @SuppressWarnings (value = "unchecked")
+
     public SimpleArray(final int size) {
-        //Class<T> cl
-        // this.objects = (T[]) Array.newInstance(cl,size);
         this.objects = (T[]) new Object[size];
     }
 
@@ -48,9 +46,9 @@ public class SimpleArray<T> {
         T[] clone = (T[]) new Object[this.objects.length];
         for (int i = 0; i < this.objects.length; i++) {
             if ((i >= index) & (i != objects.length - 1)) {
-               clone[i] = this.objects[i + 1];
+                clone[i] = this.objects[i + 1];
             } else {
-               clone[i] = this.objects[i];
+                clone[i] = this.objects[i];
             }
         }
         this.objects = clone;
@@ -70,6 +68,6 @@ public class SimpleArray<T> {
      * @return T object
      */
     public T get(final int index) {
-        return this.objects[index];
+        return (T) this.objects[index];
     }
 }

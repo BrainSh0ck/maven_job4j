@@ -75,8 +75,10 @@
         <module>twoRangeintArray</module>
         <module>IteratorOfIterators</module>
         <module>GenericFirst</module>
--->
         <module>SimpleArray</module>
+
+-->
+        <module>Store</module>
     </modules>
 
 </project>
