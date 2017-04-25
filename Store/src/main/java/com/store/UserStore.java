@@ -1,18 +1,18 @@
 package com.store;
 
 /**
- * Role store class.
+ * UserStore class.
  *
  * @author Vihovsky Roman
  * @since 23.04.2017
  */
-public class RoleStore extends MainStore<Role>  {
+public class UserStore extends MainStore<User>  {
     /**
      * Default constructor.
      *
      * @param size size of initilized container
      */
-    public RoleStore(int size) {
+    public UserStore(int size) {
         super(size);
     }
 }
