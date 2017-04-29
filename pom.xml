@@ -81,10 +81,10 @@
         <module>SimpleArray</module>
         <module>GenericFirst</module>
         <module>ListArray</module>
+
+        <module>LinkedArray</module>
 -->
-        <module>ListArray</module>
-
-
+        <module>LinkedArray</module>
 
     </modules>
 
